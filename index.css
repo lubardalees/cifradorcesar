@@ -1,0 +1,255 @@
+@font-face {
+
+  font-family: Mifuente;
+  src: url(Fonts/Righteous-Regular.ttf);
+
+
+}
+
+
+* {
+
+  font-family: Mifuente;
+
+}
+
+body {
+
+  background-image: url(http://i.share.pho.to/7da01f15_o.jpeg);
+  background-size: 100%;
+
+}
+
+.titulo {
+
+  background-color: rgba(203, 78, 207, 0.76);
+  font-size: 24px;
+  color: white;
+  padding: 1px;
+  border-radius: 10px;
+
+}
+
+
+
+h1 {
+
+  text-align: center;
+
+}
+
+.card {
+
+  border-radius: 15px;
+  color: white;
+  background-color: rgba(177, 55, 177, 0.842);
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 35px;
+  padding: 28px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.911);
+  transition: 0.3s;
+  text-align: center;
+  margin-bottom: 20pxpx;
+
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(7, 0, 0);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+
+
+#cifrar {
+  color: ghostwhite;
+  background-color: rgba(236, 92, 255, 0.699);
+  font-size: 20px;
+  border-style: double;
+  border-color: ghostwhite;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+
+}
+
+#cifrar:hover {
+
+  background-color: rgb(188, 82, 230);
+
+}
+
+#cifrar:active {
+
+  background-color: rgb(137, 84, 187);
+
+}
+
+#descifrar {
+  color: ghostwhite;
+  background-color: rgba(236, 92, 255, 0.699);
+  font-size: 20px;
+  border-style: double;
+  border-color: ghostwhite;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+#descifrar:hover {
+
+  background-color: rgb(188, 82, 230);
+
+}
+
+#descifrar:active {
+
+  background-color: rgb(137, 84, 187);
+
+}
+
+#mensaje {
+
+  padding: 9px;
+  text-align: center;
+
+}
+
+#desplazamiento {
+
+  padding: 9px;
+  text-align: center;
+}
+
+#mensaje2 {
+
+  padding: 9px;
+  text-align: center;
+
+}
+
+
+#concepto {
+
+
+  color: ghostwhite;
+  background-color: rgba(236, 92, 255, 0.699);
+  font-size: 17px;
+  border-style: double;
+  border-color: ghostwhite;
+  border-radius: 14px;
+  cursor: pointer;
+  border: solid;
+  text-decoration: none;
+  padding: 9px;
+  float: right;
+  margin-top: 32.9%;
+  margin-right: 16px;
+
+  
+
+
+}
+
+#concepto:hover {
+
+  background-color: rgb(188, 82, 230);
+
+}
+
+#concepto:active {
+
+  background-color: rgba(137, 84, 187, 0.788);
+
+}
+
+
+#refrescar{
+
+  color: ghostwhite;
+  background-color: rgba(236, 92, 255, 0.699);
+  font-size: 15px;
+  border-style: double;
+  border-color: ghostwhite;
+  border-radius: 14px;
+  cursor: pointer;
+  margin: auto;
+  border: solid;
+  text-decoration: none;
+  padding: 9px;
+
+
+}
+
+#refrescar:hover {
+
+  background-color: rgb(188, 82, 230);
+
+}
+
+#refrescar:active {
+
+  background-color: rgba(137, 84, 187, 0.788);
+
+}
+
+
+/* diseño de la página de información */
+
+#pagina2 {
+
+  background-color: rgb(242, 173, 252);
+
+
+}
+
+.titulo2 {
+
+  background-color: rgba(213, 97, 218, 0.836);
+  font-size: 24px;
+  color: white;
+  padding: 1px;
+  border-radius: 10px;
+
+
+}
+
+
+.contenedor {
+
+  background-color: rgba(199, 107, 211, 0.842);
+  border-radius: 10px;
+  margin-top: 10px; 
+ }
+
+  
+
+#texto{
+
+  padding: 30px;
+  padding-left: 25px;
+  padding-right: 50%;
+  text-align: justify;
+  color: white;
+  font-size: 18px;
+  
+
+}
+
+
+#imagen {
+
+
+  float: right;
+  width: 600px;
+  height: 340px;
+  margin-top: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  
+
+}

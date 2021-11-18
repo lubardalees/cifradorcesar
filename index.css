@@ -13,20 +13,30 @@
 
 }
 
-body {
 
-  background: url(fondo.jpg);
-  background-size: 100%;
+
+video{
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
 
 }
 
+
+
 .titulo {
 
-  background-color: rgba(203, 78, 207, 0.76);
+  background-color: rgba(196, 46, 176, 0.74);
   font-size: 24px;
   color: white;
   padding: 1px;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
 
 }
 
@@ -35,6 +45,7 @@ body {
 h1 {
 
   text-align: center;
+  
 
 }
 
@@ -42,26 +53,34 @@ h1 {
 
   border-radius: 15px;
   color: white;
-  background-color: rgba(177, 55, 177, 0.842);
+  background-color: rgba(196, 46, 176, 0.74);
   margin-right: 35%;
   margin-left: 35%;
-  margin-top: 35px;
-  padding: 28px;
-  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.911);
+  margin-top: 42px;
+  padding: 30px;
+  padding-bottom: 35px;
+  box-shadow: 0 0px 40px 0 rgba(214, 12, 255, 0.911);
   transition: 0.3s;
   text-align: center;
-  margin-bottom: 20pxpx;
+  margin-bottom: 10px;
+  position:relative;
+  z-index: 2;
 
 }
 
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgb(7, 0, 0);
+  box-shadow: 0 0px 40px 0 rgba(248, 77, 248, 0.733);
   transform: scale(1.03);
   cursor: pointer;
 }
 
+.info{
+position: relative;
+z-index: 2;
 
+
+}
 
 #cifrar {
   color: ghostwhite;
@@ -78,7 +97,7 @@ h1 {
 
 #cifrar:hover {
 
-  background-color: rgb(188, 82, 230);
+  background-color: rgb(196, 46, 176, 0.74);
 
 }
 
@@ -102,7 +121,7 @@ h1 {
 
 #descifrar:hover {
 
-  background-color: rgb(188, 82, 230);
+  background-color: rgb(196, 46, 176, 0.74);
 
 }
 
@@ -116,6 +135,7 @@ h1 {
 
   padding: 9px;
   text-align: center;
+  margin: 10px;
 
 }
 
@@ -137,7 +157,7 @@ h1 {
 
 
   color: ghostwhite;
-  background-color: rgba(236, 92, 255, 0.699);
+  background-color: rgba(196, 46, 176, 0.74);
   font-size: 17px;
   border-style: double;
   border-color: ghostwhite;
@@ -201,20 +221,17 @@ h1 {
 
 /* diseño de la página de información */
 
-#pagina2 {
 
-  background-color: rgb(242, 173, 252);
-
-
-}
 
 .titulo2 {
 
-  background-color: rgba(213, 97, 218, 0.836);
+  background-color: rgba(143, 23, 123, 0.651);
   font-size: 24px;
   color: white;
   padding: 1px;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
 
 
 }
@@ -222,9 +239,12 @@ h1 {
 
 .contenedor {
 
-  background-color: rgba(199, 107, 211, 0.842);
+
+  background-color: rgba(143, 23, 123, 0.651);
   border-radius: 10px;
   margin-top: 10px; 
+  position: relative;
+  z-index: 2;
  }
 
   
@@ -258,7 +278,7 @@ h1 {
 #return1{ 
 
   color: ghostwhite;
-  background-color: rgba(236, 92, 255, 0.699);
+  background-color: rgba(179, 24, 153, 0.534);
   font-size: 17px;
   border-style: double;
   border-color: ghostwhite;
@@ -277,12 +297,19 @@ h1 {
 #return1:hover {
   
 
-  background-color: rgb(188, 82, 230);
+  background-color: rgba(188, 82, 230, 0.658);
 
 }
 
 #return1:active {
 
-  background-color: rgba(137, 84, 187, 0.788);
+  background-color: rgba(137, 84, 187, 0.514);
+
+}
+
+.retroceso{
+
+position: relative;
+z-index: 2;
 
 }

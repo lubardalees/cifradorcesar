@@ -1,7 +1,7 @@
 @font-face {
 
   font-family: Mifuente;
-  src: url(Fonts/Righteous-Regular.ttf);
+  src: url(../Fonts/Righteous-Regular.ttf);
 
 
 }
@@ -30,7 +30,7 @@ object-fit: cover;
 
 .titulo {
 
-  background-color: rgba(196, 46, 176, 0.74);
+  background-color: rgba(180, 12, 158, 0.603);
   font-size: 24px;
   color: white;
   padding: 1px;
@@ -53,13 +53,13 @@ h1 {
 
   border-radius: 15px;
   color: white;
-  background-color: rgba(196, 46, 176, 0.74);
+  background-color: rgba(184, 9, 155, 0.603);
   margin-right: 35%;
   margin-left: 35%;
   margin-top: 42px;
   padding: 30px;
   padding-bottom: 35px;
-  box-shadow: 0 0px 40px 0 rgba(214, 12, 255, 0.911);
+  box-shadow: 0 0px 50px 0 rgba(180, 11, 166, 0.911);
   transition: 0.3s;
   text-align: center;
   margin-bottom: 10px;
@@ -70,7 +70,7 @@ h1 {
 
 
 .card:hover {
-  box-shadow: 0 0px 40px 0 rgba(248, 77, 248, 0.733);
+  box-shadow: 0 0px 40px 0 rgba(186, 62, 202, 0.774);
   transform: scale(1.03);
   cursor: pointer;
 }
@@ -84,7 +84,7 @@ z-index: 2;
 
 #cifrar {
   color: ghostwhite;
-  background-color: rgba(236, 92, 255, 0.699);
+  background-color: rgba(209, 72, 191, 0.699);
   font-size: 20px;
   border-style: double;
   border-color: ghostwhite;
@@ -109,7 +109,7 @@ z-index: 2;
 
 #descifrar {
   color: ghostwhite;
-  background-color: rgba(236, 92, 255, 0.699);
+  background-color: rgba(209, 72, 191, 0.699);
   font-size: 20px;
   border-style: double;
   border-color: ghostwhite;
@@ -225,7 +225,7 @@ z-index: 2;
 
 .titulo2 {
 
-  background-color: rgba(143, 23, 123, 0.651);
+  background-color: rgba(161, 20, 138, 0.37);
   font-size: 24px;
   color: white;
   padding: 1px;
@@ -240,7 +240,7 @@ z-index: 2;
 .contenedor {
 
 
-  background-color: rgba(143, 23, 123, 0.651);
+  background-color: rgba(161, 20, 138, 0.37);
   border-radius: 10px;
   margin-top: 10px; 
   position: relative;

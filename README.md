@@ -7,6 +7,8 @@ cifrado por desplazamiento en el que cada letra del texto original es reemplazad
 
 _***Primera página:*** Acá se encuentra el botón ***"Empezar"***, este tiene la función de pasar a la página principal donde se encuentra el cifrador._
 
+![página1](https://user-images.githubusercontent.com/93207686/143282429-94681b84-c435-4eb2-8d70-b835dfbebcd8.png)
+
 _***Segunda página:*** En la página principal encontraremos el cifrador, para usarlo deberás dirigirte al primer recuadro en blanco donde podrás escribir el mensaje que
 desees, luego deberás elegir el número de desplazamiento que quieres que cada letra ejecute, para luego hacer click en el botón ***"Cifrar"***, y obtener tu mensaje
 encriptado. Para descifar un mensaje solo deberás copiar el texto encriptado y tener en cuenta el número de desplazamiento que tuvo, luego hacer click en el botón ***"Descifrar"***._

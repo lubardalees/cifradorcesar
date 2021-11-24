@@ -3,7 +3,7 @@
 _Este proyecto trata de un encriptador a base de ***Código César***, el cual consta de un
 cifrado por desplazamiento en el que cada letra del texto original es reemplazada por otra letra que se encuentra en un número fijo de posiciones más adelante en el alfabeto._
 
-# ***Contenido***
+# ***Contenido:***
 
 _***Primera página:*** acá se encuentra el botón ***"Empezar"***, este tiene la función de pasar a la página principal donde se encuentra el cifrador._
 

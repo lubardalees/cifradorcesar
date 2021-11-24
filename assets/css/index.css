@@ -30,13 +30,25 @@ object-fit: cover;
 
 .titulo {
 
-  background-color: rgba(180, 12, 158, 0.603);
+  
   font-size: 24px;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 1px;
   border-radius: 10px;
   position: relative;
   z-index: 2;
+  
+  
+  text-shadow:
+  0 0 5px rgba(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgb(141, 0, 108, 0.753),
+  0 0 10px rgba(141, 0, 108, 0.753);
 
 }
 
@@ -56,7 +68,7 @@ h1 {
   background-color: rgba(184, 9, 155, 0.603);
   margin-right: 35%;
   margin-left: 35%;
-  margin-top: 42px;
+  margin-top: 20px;
   padding: 30px;
   padding-bottom: 35px;
   box-shadow: 0 0px 50px 0 rgba(180, 11, 166, 0.911);
@@ -167,7 +179,7 @@ z-index: 2;
   text-decoration: none;
   padding: 9px;
   float: right;
-  margin-top: 32.9%;
+  margin-top: 31.9%;
   margin-right: 16px;
   
 
@@ -313,3 +325,187 @@ position: relative;
 z-index: 2;
 
 }
+
+/* diseño página de inicio*/
+
+
+.neon{
+
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+
+
+}
+
+#bienvenidos{
+
+
+ 
+
+  font-family: Mifuente;
+
+
+
+}
+
+#inicio{
+
+
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+color: rgb(189, 2, 158);
+text-transform: uppercase;
+letter-spacing: 4px;
+text-decoration: none;
+font-size: 26px;
+overflow: hidden;
+transition: 0.2s;
+
+
+}
+
+#inicio:hover{
+
+color: rgb(255, 255, 255);
+background-color: rgba(196, 33, 155, 0.685);
+box-shadow: 0 0 10px rgba(196, 33, 155, 0.685), 0 0 40px rgba(196, 33, 155, 0.685),
+0 0 80px rgba(196, 33, 155, 0.685);
+transition-delay: 1s;
+
+
+
+} 
+
+#inicio span{
+
+position: absolute;
+display: block;
+
+}
+
+#inicio span:nth-child(1){
+
+top: 0;
+left: -100%;
+width: 100%;
+height: 2px;
+background: linear-gradient(90deg, transparent,rgb(255, 0, 200))
+
+}
+
+#inicio:hover span:nth-child(1){
+
+left: 100%;
+transition: 1s;
+
+
+
+}
+
+#inicio span:nth-child(3){
+
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,rgb(255, 0, 200))
+  
+  }
+  
+  #inicio:hover span:nth-child(3){
+  
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.2s;
+  
+  }
+
+  #inicio span:nth-child(2){
+
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,rgb(255, 0, 200))
+    
+    }
+    
+    #inicio:hover span:nth-child(2){
+    
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+    
+    }
+
+
+    #inicio span:nth-child(4){
+
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg, transparent,rgb(255, 0, 200))
+      
+      }
+      
+      #inicio:hover span:nth-child(4){
+      
+      bottom: 100%;
+      transition: 1s;
+      transition-delay: 0.5s;
+      
+      }
+
+ 
+
+      #hola{
+
+position: relative;
+text-align: center;
+z-index: 2;
+font-size: 16px;
+letter-spacing: 5px;
+margin-top: 30px;
+color: rgb(255, 255, 255);
+	text-shadow:
+		0 0 5px rgb(255, 44, 209),
+		0 0 10px rgb(250, 50, 223),
+		0 0 20px rgb(252, 51, 225),
+		0 0 40px rgb(125, 20, 134),
+		0 0 80px rgb(112, 38, 127),
+		0 0 90px rgb(103, 25, 139),
+		0 0 100px rgb(127, 38, 127),
+		0 0 140px rgb(99, 38, 127),
+		0 0 180px rgb(106, 38, 127); ;
+
+      }
+
+
+      #hola2{
+
+        position: relative;
+        text-align: center;
+        z-index: 2;
+        font-size: 16px;
+        letter-spacing: 5px;
+        margin-top: 210px;
+        color: rgb(255, 255, 255);
+          text-shadow:
+            0 0 5px rgb(255, 44, 209),
+            0 0 10px rgb(250, 50, 223),
+            0 0 20px rgb(252, 51, 225),
+            0 0 40px rgb(125, 20, 134),
+            0 0 80px rgb(112, 38, 127),
+            0 0 90px rgb(103, 25, 139),
+            0 0 100px rgb(127, 38, 127),
+            0 0 140px rgb(99, 38, 127),
+            0 0 180px rgb(106, 38, 127); 
+        
+              }   

@@ -20,6 +20,13 @@ referencial._
 
 ![página3](https://user-images.githubusercontent.com/93207686/143283258-d73b0426-fe6f-427b-86f1-283556277d58.png)
 
+# ***Usuarios:***
+
+_Este proyecto está dirigido a todo tipo de público, bien sea para:_
+
+- _Crear contraseñas seguras._
+- _Mandar mensajes secretos._
+- _Usarlo como un juego de lógica._
 
 
 

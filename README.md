@@ -13,6 +13,8 @@ _***Segunda página:*** En la página principal encontraremos el cifrador, para 
 desees, luego deberás elegir el número de desplazamiento que quieres que cada letra ejecute, para luego hacer click en el botón ***"Cifrar"***, y obtener tu mensaje
 encriptado. Para descifar un mensaje solo deberás copiar el texto encriptado y tener en cuenta el número de desplazamiento que tuvo, luego hacer click en el botón ***"Descifrar"***._
 
+![página2](https://user-images.githubusercontent.com/93207686/143283000-578a7f60-ac76-4913-aaba-ace64e084a57.png)
+
 _***Tercera página:*** Esta página está dirigida a los usuarios que desean saber más sobre la técnica de cifrado usada en este proyecto, encontrarán información y una imagen
 referencial._
 

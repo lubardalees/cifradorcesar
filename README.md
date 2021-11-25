@@ -24,7 +24,7 @@ referencial._
 
 _Este proyecto está dirigido a todo tipo de público, bien sea para:_
 
-- _**Crear contraseñas seguras:** Al usar apps como redes sociales o nuestros mismos dispositivos móviles, se ha hecho de gran necesidad crear espacios seguros y confiables, es por eso que el **"Cifrador César** es un gran aliado, pues crea de manera casi instantánea contraseñas mucho más complejas y seguras para los usuarios._
+- _**Crear contraseñas seguras:** Al usar apps como redes sociales o nuestros mismos dispositivos móviles, se ha hecho de gran necesidad crear espacios seguros y confiables, es por eso que el **"Cifrador César"** es un gran aliado, pues crea de manera casi instantánea contraseñas mucho más complejas y seguras para los usuarios._
 
 - _**Mandar mensajes secretos:** Hoy en día muchas personas buscan privacidad para desarrollarse en un ambiente más confiable y personal, es por eso que este encriptador puede ser usado para tener una comunicación más privada con nuestros allegados. Por ello, es una opción muy favorable para que grupos jóvenes o adultos hagan uso de él para enviarse mensajes ocultos de manera sería o ¡divertida!_
 
